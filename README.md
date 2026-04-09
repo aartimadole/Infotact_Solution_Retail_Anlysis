@@ -128,8 +128,7 @@ This project demonstrates how retail data can be transformed into meaningful ins
 
 ## 📸 Dashboard Preview
 
-(Add your Power BI screenshot here)
-
+"C:\Users\Admin\OneDrive\Pictures\Screenshots\infotact.png"
 ---
 
 ## 🚀 Future Improvements
