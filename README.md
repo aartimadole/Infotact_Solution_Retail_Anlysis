@@ -128,7 +128,7 @@ This project demonstrates how retail data can be transformed into meaningful ins
 
 ## 📸 Dashboard Preview
 
-"C:\Users\Admin\OneDrive\Pictures\Screenshots\infotact.png"
+<img width="1050" height="546" alt="infotact" src="https://github.com/user-attachments/assets/7943bfda-1c04-4bd7-a2ac-681c9472f598" />
 ---
 
 ## 🚀 Future Improvements
