@@ -4,36 +4,34 @@
 
 ## 📌 Project Overview
 
-This project focuses on analyzing retail shopping data to understand customer behavior, identify top-performing products, and generate actionable business insights. The analysis helps businesses make data-driven decisions to improve sales and customer satisfaction.
+This project focuses on analyzing retail shopping data to understand customer behavior, spending patterns, and decision-making factors. The goal is to extract meaningful insights that help businesses improve customer engagement and increase revenue.
 
 ---
 
 ## 🎯 Problem Statement
 
-Retail businesses generate large amounts of data but often fail to utilize it effectively. The goal of this project is to analyze customer shopping trends and uncover insights related to purchasing behavior, income patterns, and product performance.
+Retail companies generate large volumes of data but often struggle to extract actionable insights. This project aims to analyze customer data to identify key factors influencing purchasing behavior and optimize business strategies.
 
 ---
 
-## 🛠️ Tools & Technologies Used
+## 🛠️ Tools & Technologies
 
 * Python (Pandas, Matplotlib)
-* SQL
+* SQL (MySQL)
 * Power BI
 
 ---
 
 ## 📊 Dataset Description
 
-* Total Records: 11,789
-* Key Columns:
+The dataset contains customer demographic, behavioral, and transactional information including:
 
-  * Customer ID
-  * Age
-  * Gender
-  * Monthly Income
-  * Product Category
-  * Purchase Amount
-  * Shopping Preference
+* Income, Age, Gender
+* Online Orders & Store Visits
+* Online & Store Spending
+* Tech Savviness & Internet Usage
+* Psychological Factors (Impulse Buying, Brand Loyalty)
+* Shopping Preferences (Online / Store / Hybrid)
 
 ---
 
@@ -41,97 +39,83 @@ Retail businesses generate large amounts of data but often fail to utilize it ef
 
 ### 1️⃣ Data Cleaning (Python)
 
-* Handled missing values
 * Removed duplicates
-* Standardized column formats
+* Handled missing values
+* Standardized data
 
 ### 2️⃣ Data Analysis (SQL)
 
-* Performed aggregation and grouping
-* Analyzed customer preferences
-* Identified revenue trends
+* Customer segmentation using CASE statements
+* Behavioral analysis using GROUP BY
+* Spending analysis using AVG & SUM
 
 ### 3️⃣ Data Visualization (Power BI)
 
-* Created interactive dashboard
-* Used filters and slicers for better insights
+* Built interactive dashboard
+* Used filters and slicers
 * Designed KPI metrics
 
 ---
 
 ## 📈 Key Insights
 
-* High-income customers tend to spend more on premium products
-* A few product categories generate the majority of revenue
-* Repeat customers contribute significantly to total sales
-* Sales show variation based on customer demographics
-* Certain shopping preferences dominate customer behavior
+* Customers with higher tech-savvy scores prefer online shopping
+* High-income customers contribute significantly to total revenue
+* Impulse buying behavior increases customer spending
+* Customers who prefer touch-and-feel shopping spend more in stores
+* Delivery delays lead to higher return rates
+* Hybrid customers show balanced online and offline behavior
 
 ---
 
 ## 📊 Dashboard Features
 
 * Total Revenue KPI
-* Total Orders KPI
-* Average Income KPI
-* Sales by Category
-* Sales by Gender
-* Monthly Sales Trend
-* Interactive Filters (Category, Gender, Income)
-
----
-
-## 🧠 Advanced Analysis
-
-### 🔹 Customer Segmentation
-
-Customers are grouped into:
-
-* High Value Customers
-* Medium Value Customers
-* Low Value Customers
-
-### 🔹 RFM Analysis
-
-* Recency: Last purchase timing
-* Frequency: Number of purchases
-* Monetary: Total spending
-
-### 🔹 Pareto Analysis (80/20 Rule)
-
-Top 20% customers contribute to majority of revenue.
-
----
-
-## ⚠️ Challenges Faced
-
-* Handling missing and inconsistent data
-* Writing optimized SQL queries
-* Creating meaningful visualizations
+* Total Customers KPI
+* Average Spending KPI
+* Sales by Shopping Preference
+* Income vs Spending Analysis
+* Behavioral Insights Visualization
 
 ---
 
 ## 💡 Business Recommendations
 
-* Focus marketing strategies on high-value customers
-* Increase inventory for high-demand categories
-* Offer targeted discounts during low-sales periods
-* Improve customer retention strategies
+* Target high-value customers with premium products
+* Improve delivery efficiency to reduce returns
+* Focus digital marketing on tech-savvy users
+* Enhance in-store experience for touch-and-feel customers
+* Promote eco-friendly products for environmentally aware customers
+
+---
+
+## ⚠️ Challenges Faced
+
+* Dataset did not contain customer ID
+* Created custom logic for customer segmentation
+* Handled multiple behavioral variables
 
 ---
 
 ## ✅ Conclusion
 
-This project demonstrates how retail data can be transformed into meaningful insights using Python, SQL, and Power BI. It highlights the importance of data-driven decision-making in improving business performance.
+This project demonstrates how SQL and data analytics can transform raw retail data into actionable insights, helping businesses make data-driven decisions.
 
 ---
 
 ## 📸 Dashboard Preview
 
-<img width="1050" height="546" alt="infotact" src="https://github.com/user-attachments/assets/7943bfda-1c04-4bd7-a2ac-681c9472f598" />
+(Add your Power BI dashboard screenshot here)
+
 ---
 
-## 🚀 Future Improvements
+## 🚀 Future Scope
+
+* Customer churn prediction
+* Sales forecasting using Machine Learning
+* Real-time analytics dashboard
+
+---
 
 * Sales forecasting using Machine Learning
 * Customer churn prediction
