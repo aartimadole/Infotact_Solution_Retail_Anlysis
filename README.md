@@ -105,7 +105,7 @@ This project demonstrates how SQL and data analytics can transform raw retail da
 
 ## 📸 Dashboard Preview
 
-(Add your Power BI dashboard screenshot here)
+<img width="1050" height="546" alt="infotact" src="https://github.com/user-attachments/assets/cbe0212f-7065-46c7-9f89-5a8c9c84e2c6" />
 
 ---
 
